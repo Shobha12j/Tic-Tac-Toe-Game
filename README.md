@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game 
+# Tic-Tac-Toe Game 🕹️
 
 This is a browser-based implementation of the classic Tic-Tac-Toe game, created using fundamental web technologies. Two players can compete, taking turns to place their marks (X and O) on a 3x3 grid.
 
