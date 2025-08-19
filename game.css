@@ -1,0 +1,47 @@
+body{
+    background-color:beige;
+    text-align:center;
+}
+h1{
+    text-align:center;
+    color:rgb(30, 174, 210);
+    font-size:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    height: 430px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.container{
+    width:60vmin;
+    height:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.Box{
+    width:100px;
+    height:100px;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+}
+#resB{
+    background-color:rgb(205, 117, 54);
+    color:white;
+    width:80px;
+    height:50px;
+    font-size:20px;
+    border-radius: 2rem;
+}
+#newB{
+    background-color: rgb(205, 117, 54);
+    color:white;
+    width:120px;
+    height:40px;
+    font-size:20px;
+    border-radius: 2rem;
+}
