@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("job301-cotton-103.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: coral;
+    font-size: 10vw; 
+    text-decoration: underline burlywood;
+}
+
+.play-button img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    border: 3px solid burlywood;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 18vw; 
+    }
+
+    .play-button img {
+        width: 100px;
+        height: 100px;
+    }
+}
