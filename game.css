@@ -45,3 +45,37 @@ h1{
     font-size:20px;
     border-radius: 2rem;
 }
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 36px;
+    }
+    .main {
+        height: auto; 
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    .container {
+        width: 90vw;  
+        height: 90vw; 
+    }
+
+    .Box {
+
+        width: calc((90vw - 16px) / 3);
+        height: calc((90vw - 16px) / 3);
+        font-size: 15vw;
+    }
+
+    #newB, #resB {
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
