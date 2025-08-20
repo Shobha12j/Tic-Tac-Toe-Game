@@ -36,7 +36,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 22vw; 
+        font-size: 30vw; 
     }
 
     .play-button img {
@@ -45,3 +45,4 @@ h1 {
     }
 
 }
+
