@@ -1,81 +1,65 @@
-body{
-    background-color:beige;
-    text-align:center;
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
 }
-h1{
-    text-align:center;
-    color:rgb(30, 174, 210);
-    font-size:40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+h1 {
+    color: rgb(30, 174, 210);
+    font-size: 50px;
 }
-.main{
-    height: 430px;
-    align-items: center;
-    justify-content: center;
-    display:flex;
+
+#msg {
+    font-size: 24px;
+    min-height: 30px;
 }
-.container{
-    width:60vmin;
-    height:60vmin;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+
+.container {
+    width: 50vmin;
+    height: 50vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px auto; 
 }
-.Box{
-    width:100px;
-    height:100px;
-    flex-wrap: wrap;
+
+.Box {
     border-radius: 1rem;
+    background-color: #fff;
+    font-size: 8vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
-#resB{
-    background-color:rgb(205, 117, 54);
-    color:white;
-    width:80px;
-    height:50px;
-    font-size:20px;
-    border-radius: 2rem;
-}
-#newB{
+
+#resB,
+#newB {
     background-color: rgb(205, 117, 54);
-    color:white;
-    width:120px;
-    height:40px;
-    font-size:20px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
     border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
 }
-@media screen and (max-width: 1024px) {
-    h1 {
-        font-size: 36px;
-    }
-    .main {
-        height: auto; 
-        padding: 20px 0;
-    }
-}
+
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 30px;
+        font-size: 32px;
     }
+
     .container {
-        width: 90vw;  
-        height: 90vw; 
+        width: 90vw; 
+        height: 90vw;
     }
 
     .Box {
-
-        width: calc((90vw - 16px) / 3);
-        height: calc((90vw - 16px) / 3);
-        font-size: 15vw;
-    }
-
-    #newB, #resB {
-        width: 100px;
-        height: 40px;
-        font-size: 16px;
-        margin: 5px;
+        font-size: 15vw; 
     }
 }
-
